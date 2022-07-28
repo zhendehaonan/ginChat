@@ -1,0 +1,22 @@
+info:
+  contact: {}
+paths:
+  /helloworld:
+    get:
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      tags:
+      - 首页
+  /v1/user/createuser:
+    get:
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      tags:
+      - 用户注册
+swagger: "2.0"
