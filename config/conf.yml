@@ -1,0 +1,11 @@
+database:
+  user: root
+  password: 1234
+  host: localhost
+  name: ginchat
+redis:
+  addr: "localhost:6379"
+  password: ""
+  db: 0
+  poolSize: 30
+  minIdleConn: 30
